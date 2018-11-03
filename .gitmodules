@@ -10,3 +10,39 @@
 [submodule "omero-test-infra"]
 	path = omero-test-infra
 	url = git://github.com/openmicroscopy/omero-test-infra
+[submodule "omero-prometheus-tools"]
+	path = omero-prometheus-tools
+	url = git://github.com/ome/omero-prometheus-tools.git
+[submodule "omero-parade"]
+	path = omero-parade
+	url = git://github.com/ome/omero-parade.git
+[submodule "omero-mapr"]
+	path = omero-mapr
+	url = git://github.com/ome/omero-mapr.git
+[submodule "omero-fpbioimage"]
+	path = omero-fpbioimage
+	url = git://github.com/ome/omero-fpbioimage
+[submodule "omero-iviewer"]
+	path = omero-iviewer
+	url = git://github.com/ome/omero-iviewer
+[submodule "omero-gallery"]
+	path = omero-gallery
+	url = git://github.com/ome/omero-gallery
+[submodule "rOMERO-gateway"]
+	path = rOMERO-gateway
+	url = git://github.com/ome/rOMERO-gateway
+[submodule "omero-weberror"]
+	path = omero-weberror
+	url = git://github.com/openmicroscopy/omero-weberror
+[submodule "omero-cli-render"]
+	path = omero-cli-render
+	url = git://github.com/ome/omero-cli-render
+[submodule "omero-cli-duplicate"]
+	path = omero-cli-duplicate
+	url = git://github.com/ome/omero-cli-duplicate
+[submodule "omero-metadata"]
+	path = omero-metadata
+	url = git://github.com/ome/omero-metadata
+[submodule "omero-webtest"]
+	path = omero-webtest
+	url = git://github.com/openmicroscopy/omero-webtest

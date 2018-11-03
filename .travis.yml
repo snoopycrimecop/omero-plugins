@@ -4,9 +4,21 @@ services:
   - docker
 
 env:
-- REPO=scripts TARGET=lib
-- REPO=omero-figure TARGET=app
-- REPO=minimal-omero-client TARGET=lib
+- REPO=minimal-omero-client STAGE=lib
+- REPO=omero-cli-duplicate STAGE=cli
+- REPO=omero-cli-render STAGE=cli
+- REPO=omero-figure STAGE=app
+- REPO=omero-fpbioimage STAGE=app
+- REPO=omero-gallery STAGE=app
+- REPO=omero-iviewer STAGE=app
+- REPO=omero-mapr STAGE=app
+- REPO=omero-metadata STAGE=cli PLUGIN=metadata
+- REPO=omero-parade STAGE=app
+- REPO=omero-prometheus-tools STAGE=lib
+- REPO=omero-weberror STAGE=app
+- REPO=omero-webtest STAGE=app
+- REPO=rOMERO-gateway STAGE=lib
+- REPO=scripts STAGE=scripts
 
 script:
-- cd $REPO && ln -s ../omero-test-infra .omero && .omero/docker $TARGET
+- cd $REPO && ln -s ../omero-test-infra .omero && .omero/docker $STAGE

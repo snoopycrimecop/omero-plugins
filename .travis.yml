@@ -1,0 +1,12 @@
+language: python
+sudo: required
+services:
+  - docker
+
+env:
+- REPO=scripts TARGET=lib
+- REPO=omero-figure TARGET=app
+- REPO=minimal-omero-client TARGET=lib
+
+script:
+- cd $REPO && ln -s ../omero-test-infra .omero && .omero/docker $TARGET

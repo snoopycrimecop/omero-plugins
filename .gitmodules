@@ -1,0 +1,12 @@
+[submodule "omero-figure"]
+	path = omero-figure
+	url = git://github.com/ome/omero-figure
+[submodule "minimal-omero-client"]
+	path = minimal-omero-client
+	url = git://github.com/ome/minimal-omero-client
+[submodule "scripts"]
+	path = scripts
+	url = git://github.com/ome/scripts
+[submodule "omero-test-infra"]
+	path = omero-test-infra
+	url = git://github.com/openmicroscopy/omero-test-infra

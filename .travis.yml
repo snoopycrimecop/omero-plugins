@@ -23,7 +23,3 @@ env:
 script:
 - cd $REPO && ln -s ../omero-test-infra .omero && .omero/docker $STAGE
 
-matrix:
-  allow_failures:
-    # Stalled build
-    - env: REPO=rOMERO-gateway STAGE=lib

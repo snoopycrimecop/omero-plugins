@@ -22,7 +22,7 @@ env:
 - REPO=omero-metadata STAGE=cli PLUGIN=metadata
 - REPO=omero-parade STAGE=app
 - REPO=omero-prometheus-tools STAGE=lib
-- REPO=omero-upload STAGE=cli
+- REPO=omero-upload STAGE=cli PLUGIN=upload
 - REPO=omero-weberror STAGE=app
 - REPO=omero-webtest STAGE=app
 - REPO=rOMERO-gateway STAGE=lib

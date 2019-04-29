@@ -62,3 +62,6 @@
 	path = omero-webtest
 	url = git://github.com/openmicroscopy/omero-webtest
 	branch = master
+[submodule "omero-upload"]
+	path = omero-upload
+	url = git://github.com/ome/omero-upload/

@@ -9,6 +9,8 @@ matrix:
   allow_failures:
   # The build is currently failing to download oracle-java8-installer
   - env: REPO=rOMERO-gateway STAGE=lib
+  - env: REPO=minimal-omero-client STAGE=lib
+  - env: REPO=omero-iviewer STAGE=app
 
 env:
 - REPO=minimal-omero-client STAGE=lib

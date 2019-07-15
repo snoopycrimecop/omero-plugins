@@ -5,7 +5,7 @@ omero-plugins
 [![Build Status](https://travis-ci.org/ome/omero-plugins.svg)](https://travis-ci.org/ome/omero-plugins)
 
 This collection of OMERO plugins allows us to maintain a single cron job
-which runs travis daily for all the listed repositories (instead of
+which runs Travis daily for all the listed repositories (instead of
 maintaining separate cron jobs for each one). The results can be
 seen at https://travis-ci.org/ome/omero-plugins/builds. 
 

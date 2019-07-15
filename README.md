@@ -9,7 +9,7 @@ which runs travis daily for all the listed repositories (instead of
 maintaining separate cron jobs for each one). The results can be
 seen at https://travis-ci.org/ome/omero-plugins/builds. 
 
-Running travis daily for each repository allows us to check that they
+Running Travis daily for each repository allows us to check that they
 are passing with the latest dependencies, including the latest OMERO release,
 even when there are no changes and no PRs open for each repo itself.
 

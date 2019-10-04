@@ -64,4 +64,4 @@
 	branch = master
 [submodule "omero-upload"]
 	path = omero-upload
-	url = git://github.com/ome/omero-upload/
+	url = git://github.com/ome/omero-upload

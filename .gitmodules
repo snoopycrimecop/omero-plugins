@@ -71,3 +71,6 @@
 [submodule "omero-rois"]
 	path = omero-rois
 	url = git://github.com/ome/omero-rois
+[submodule "omero-signup"]
+	path = omero-signup
+	url = git://github.com/ome/omero-signup

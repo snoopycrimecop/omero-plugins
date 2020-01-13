@@ -65,3 +65,6 @@
 [submodule "omero-upload"]
 	path = omero-upload
 	url = git://github.com/ome/omero-upload
+[submodule "omero-virtual-microscope"]
+	path = omero-virtual-microscope
+	url = git://github.com/ome/omero-virtual-microscope

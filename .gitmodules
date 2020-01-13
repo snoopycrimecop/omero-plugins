@@ -68,3 +68,6 @@
 [submodule "omero-virtual-microscope"]
 	path = omero-virtual-microscope
 	url = git://github.com/ome/omero-virtual-microscope
+[submodule "omero-rois"]
+	path = omero-rois
+	url = git://github.com/ome/omero-rois

@@ -23,13 +23,7 @@ env:
 - REPO=scripts STAGE=scripts
 
 script:
-- |
-  if [ "$REPO" == "omero-iviewer" ]; then
-      cd $REPO && mkdir .omero && cp -r ../omero-test-infra/. .omero && .omero/docker $STAGE
-  else
-      cd $REPO &&  ln -s ../omero-test-infra .omero && .omero/docker $STAGE
-  fi
-
+- cd $REPO && cp -r ../omero-test-infra .omero && .omero/docker $STAGE
 
 matrix:
   allow_failures:

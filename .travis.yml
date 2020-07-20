@@ -23,7 +23,7 @@ env:
 - REPO=scripts STAGE=scripts
 
 script:
-- cd $REPO && ln -s ../omero-test-infra .omero && .omero/docker $STAGE
+- cd $REPO && cp -r ../omero-test-infra .omero && .omero/docker $STAGE
 
 matrix:
   allow_failures:

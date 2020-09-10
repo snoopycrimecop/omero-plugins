@@ -5,7 +5,7 @@
 [submodule "minimal-omero-client"]
 	path = minimal-omero-client
 	url = git://github.com/ome/minimal-omero-client
-	branch = dev_5_4
+	branch = master
 [submodule "scripts"]
 	path = scripts
 	url = git://github.com/ome/scripts

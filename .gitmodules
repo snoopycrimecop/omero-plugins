@@ -81,3 +81,6 @@
 [submodule "omero-cli-zarr"]
 	path = omero-cli-zarr
 	url = https://github.com/ome/omero-cli-zarr
+[submodule "figure"]
+	path = figure
+	url = https://github.com/ome/figure
